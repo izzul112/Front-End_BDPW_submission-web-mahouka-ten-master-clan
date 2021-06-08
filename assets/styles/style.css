@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(24, 21, 21);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+h2, h3, h4 {
+    color: #00a2c6;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 100px;
+    background-image: url(../image/5-dots.png);
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(165, 159, 159);
+}
+
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+figcaption {
+    font-size: 12.5px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    background-color: rgb(51, 46, 46);
+    border-radius: 5px;
+    color: cornsilk;
+    width: 25%;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(51, 46, 46);
+    color: white;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    padding: 20px;
+    background-color: rgb(24, 21, 21);
+}
+
+footer {
+    padding: 0.5px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #content {
+        width: 100%;
+        padding: 0px;
+    }
+
+    aside {
+        width: 100%;
+        padding-top: 30px;
+    }
+}
